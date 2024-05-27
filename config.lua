@@ -14,10 +14,10 @@ Config.PawnLocation = {
     }
 
 Config.BankMoney = false -- Set to true if you want the money to go into the players bank
-Config.UseTimes = false -- Set to false if you want the pawnshop open 24/7
+Config.UseTimes = true -- Set to false if you want the pawnshop open 24/7
 Config.TimeOpen = 7 -- Opening Time
 Config.TimeClosed = 17 -- Closing Time
-Config.SendMeltingEmail = true
+Config.SendMeltingEmail = false
 
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 
@@ -53,7 +53,67 @@ Config.PawnItems = {
     [8] = {
         item = 'laptop',
         price = math.random(50,100)
-    }
+    },
+    [9] = {
+        item = 'telescope',
+        price = math.random(100,500)
+    },
+    [10] = {
+        item = 'pcequipment',
+        price = math.random(100,500)
+    },
+    [11] = {
+        item = 'coffeemaker',
+        price = math.random(100,500)
+    },
+    [12] = {
+        item = 'musicequipment',
+        price = math.random(100,500)
+    },
+    [13] = {
+        item = 'microwave',
+        price = math.random(100,500)
+    },
+    [14] = {
+        item = 'flatscreen',
+        price = math.random(100,500)
+    },
+    [15] = {
+        item = 'atmmotherboard',
+        price = math.random(100,500)
+    },
+    [16] = {
+        item = 'atmcables',
+        price = math.random(100,500)
+    },
+    [17] = {
+        item = 'atmpanel',
+        price = math.random(100,500)
+    },
+    [18] = {
+        item = 'flight_artpiece',
+        price = math.random(50,100)
+    },
+    [19] = {
+        item = 'flight_suitcase',
+        price = math.random(100,500)
+    },
+    [20] = {
+        item = 'flight_television',
+        price = math.random(100,500)
+    },
+    [21] = {
+        item = 'flight_painting',
+        price = math.random(100,500)
+    },
+    [22] = {
+        item = 'flight_painting2',
+        price = math.random(100,500)
+    },
+    [23] = {
+        item = 'flight_guitar',
+        price = math.random(100,500)
+    },
 }
 
 Config.MeltingItems = { -- meltTime is amount of time in minutes per item
@@ -61,8 +121,8 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
         item = 'goldchain',
         rewards = {
             [1] = {
-                item = 'goldbar',
-                amount = 2
+                item = 'goldingot',
+                amount = 1
             }
         },
         meltTime = 0.15
@@ -75,7 +135,7 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
                 amount = 1
             },
             [2] = {
-                item = 'goldbar',
+                item = 'goldingot',
                 amount = 1
             }
         },
@@ -89,7 +149,7 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
                 amount = 1
             },
             [2] = {
-                item = 'goldbar',
+                item = 'goldingot',
                 amount = 1
             },
             [3] = {
@@ -107,7 +167,7 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
                 amount = 5
             },
             [2] = {
-                item = 'goldbar',
+                item = 'goldingot',
                 amount = 1
             }
         },
