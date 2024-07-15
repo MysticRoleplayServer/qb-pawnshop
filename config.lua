@@ -91,27 +91,27 @@ Config.PawnItems = {
         price = math.random(100,500)
     },
     [18] = {
-        item = 'flight_artpiece',
+        item = 'x_artpiece',
         price = math.random(50,100)
     },
     [19] = {
-        item = 'flight_suitcase',
+        item = 'x_suitcase',
         price = math.random(100,500)
     },
     [20] = {
-        item = 'flight_television',
+        item = 'x_television',
         price = math.random(100,500)
     },
     [21] = {
-        item = 'flight_painting',
+        item = 'x_painting',
         price = math.random(100,500)
     },
     [22] = {
-        item = 'flight_painting2',
+        item = 'x_painting2',
         price = math.random(100,500)
     },
     [23] = {
-        item = 'flight_guitar',
+        item = 'x_guitar',
         price = math.random(100,500)
     },
 }
