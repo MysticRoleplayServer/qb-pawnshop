@@ -114,6 +114,38 @@ Config.PawnItems = {
         item = 'x_guitar',
         price = math.random(100,500)
     },
+    [24] = {
+        item = 'car_door',
+        price = math.random(100,500)
+    },
+    [25] = {
+        item = 'car_wheel',
+        price = math.random(50,100)
+    },
+    [26] = {
+        item = 'car_battery',
+        price = math.random(100,500)
+    },
+    [27] = {
+        item = 'car_gearbox',
+        price = math.random(100,500)
+    },
+    [28] = {
+        item = 'car_radiator',
+        price = math.random(100,500)
+    },
+    [29] = {
+        item = 'car_scrap',
+        price = math.random(100,500)
+    },
+    [30] = {
+        item = 'car_hood',
+        price = math.random(100,500)
+    },
+    [31] = {
+        item = 'car_trunk',
+        price = math.random(100,500)
+    },
 }
 
 Config.MeltingItems = { -- meltTime is amount of time in minutes per item
